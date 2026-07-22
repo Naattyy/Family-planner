@@ -121,3 +121,71 @@
 3. Click the delete button next to the task.
 4. Verify that the task is no longer displayed.
 5. Verify that the total task counter displays `0`.
+
+---
+
+## TC_07 – Display all tasks using the All filter
+
+| Field | Description |
+|:------|:------------|
+| Test Case ID | TC_07 |
+| Test Title | Display all tasks using the All filter |
+| Test Data | Active task: Aktívna úloha<br>Completed task: Dokončená úloha |
+| Precondition | One active task and one completed task exist |
+| Expected Result | Both active and completed tasks are displayed |
+
+### Test Steps
+
+1. Open the Family Planner application.
+2. Add the task **"Aktívna úloha"**.
+3. Add the task **"Dokončená úloha"**.
+4. Mark **"Dokončená úloha"** as completed.
+5. Click the **"Všetky"** filter.
+6. Verify that both tasks are displayed.
+
+---
+
+## TC_08 – Display only active tasks using the Remaining filter
+
+| Field | Description |
+|:------|:------------|
+| Test Case ID | TC_08 |
+| Test Title | Display only active tasks using the Remaining filter |
+| Test Data | Active task: Aktívna úloha<br>Completed task: Dokončená úloha |
+| Precondition | One active task and one completed task exist |
+| Expected Result | Only the active task is displayed |
+
+### Test Steps
+
+1. Open the Family Planner application.
+2. Add the task **"Aktívna úloha"**.
+3. Add the task **"Dokončená úloha"**.
+4. Mark **"Dokončená úloha"** as completed.
+5. Click the **"Zostávajúce"** filter.
+6. Verify that **"Aktívna úloha"** is displayed.
+7. Verify that **"Dokončená úloha"** is not displayed.
+
+---
+
+## TC_09 – Display only completed tasks using the Completed filter
+
+| Field | Description |
+|:------|:------------|
+| Test Case ID | TC_09 |
+| Test Title | Display only completed tasks using the Completed filter |
+| Test Data | Active task: Aktívna úloha<br>Completed task: Dokončená úloha |
+| Precondition | One active task and one completed task exist |
+| Expected Result | Only the completed task is displayed |
+
+### Test Steps
+
+1. Open the Family Planner application.
+2. Add the task **"Aktívna úloha"**.
+3. Add the task **"Dokončená úloha"**.
+4. Mark **"Dokončená úloha"** as completed.
+5. Click the **"Dokončené"** filter.
+6. Verify that **"Dokončená úloha"** is displayed.
+7. Verify that **"Aktívna úloha"** is not displayed.
+
+---
+
