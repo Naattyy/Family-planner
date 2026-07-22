@@ -189,3 +189,42 @@
 
 ---
 
+## TC_10 – Verify the "Clear Completed" button is disabled when no completed tasks exist
+
+| Field | Description |
+|:------|:------------|
+| Test Case ID | TC_10 |
+| Test Title | Verify the "Clear Completed" button is disabled when no completed tasks exist |
+| Test Data | None |
+| Precondition | The application is opened and no completed tasks exist |
+| Expected Result | The "Vymazať dokončené" button is disabled |
+
+### Test Steps
+
+1. Open the Family Planner application.
+2. Verify that no completed tasks exist.
+3. Locate the **"Vymazať dokončené"** button.
+4. Verify that the button is disabled.
+
+---
+
+## TC_11 – Clear completed tasks
+
+| Field | Description |
+|:------|:------------|
+| Test Case ID | TC_11 |
+| Test Title | Clear completed tasks |
+| Test Data | Active task: Aktívna úloha<br>Completed task: Dokončená úloha |
+| Precondition | One active task and one completed task exist |
+| Expected Result | All completed tasks are removed while active tasks remain in the task list |
+
+### Test Steps
+
+1. Open the Family Planner application.
+2. Add the task **"Aktívna úloha"**.
+3. Add the task **"Dokončená úloha"**.
+4. Mark **"Dokončená úloha"** as completed.
+5. Click the **"Vymazať dokončené"** button.
+6. Verify that **"Dokončená úloha"** is no longer displayed.
+7. Verify that **"Aktívna úloha"** is still displayed.
+
