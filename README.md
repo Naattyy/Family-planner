@@ -16,6 +16,7 @@ Family Planner is a React + TypeScript application created as a portfolio projec
 - Test Plan
 - Test Cases
 - Bug Reports
+- Test Summary
 
 ## Automated Testing
 
